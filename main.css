@@ -1,0 +1,222 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: 0vmax;
+    background-color: rgb(41, 131, 233);
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+#container{
+    padding-top: 1.5em;
+}
+
+/* Pages Navigation bar */
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rounded_circle{
+    height: 6%;
+    width: 6%;
+    border-radius: 50%;
+    margin-right: 1em;
+}
+
+a{
+    text-decoration: none;
+}
+
+#logo{
+    height: 6%;
+    width: 6%;
+    border-radius: 50%;
+    margin-left: 1.5em;
+}
+
+/* Main container frame*/
+main{
+    background-color: white;
+    height: 655px;
+    width: 60%;
+    margin: auto;
+    border: none;
+    border-radius: 0px 30px 0px 30px;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8%;
+    margin-top: 3%;
+}
+
+/* Display picture frame*/
+.dp{
+    height: 12em;
+    width: 12em;   
+}
+
+/* Work and Project layout*/
+#work{
+    padding-bottom: 1em;
+    padding-top: 0em;
+}
+
+#ul{
+    padding-bottom: 0.2em;
+    color: red;
+}
+
+#ol{
+    padding-top: 2em;
+}
+
+li{
+    font-family: monospace;
+    color: blue;
+    padding-top: 0.5em;
+}
+/* Basic Info*/
+#name{
+    display: flex;
+
+}
+#location{
+    display: flex;
+    align-self: center;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    color: green;   
+}
+
+/* Summary layout*/
+#links{
+    display: flex;
+}
+
+#meet{
+    display: flex;
+    align-self: center;
+    padding-top: 1em;
+    
+}
+
+#suma{
+font-family: serif;
+font-size: 1rem;
+}
+/*Contact & Bio - Data goes here*/
+#contact{
+    padding-top: 1.5em;
+}
+
+#add{
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+#bio{
+    padding-top: 1em;
+}
+
+
+h3{
+    text-align: center;
+    padding-top: 2em;
+    color: red;
+}
+
+h2, h5{
+    font-family: serif;
+    color: red;
+}
+/*Contact form layout*/
+h5{
+    font-size: 1rem;
+}
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 28em;
+    margin: auto;
+    margin-top: 1em;
+    border-radius: 20px 20px 20px 0px;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+    
+
+#field_element{
+    height: 2em;
+    width: 20em;
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgb(239, 246, 247);
+    padding-left: 1em;
+    margin-bottom: 0.5em;
+     
+    
+}
+
+#gnder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1em;
+}
+
+#bttn{
+    display: flex;
+    height: 2em;
+    width: 4em;
+    padding-left: 0.5em;
+    align-items: center;
+    color: white;
+    background: green;
+    
+}
+
+#bttn:hover{
+    background: red;
+}
+
+.items{
+   padding-bottom: 5em;
+}
+
+#text-a{
+height: 10em;
+width: 20em;
+align-self: left;
+text-align: center;
+border: none;
+}
+
+#chkbox{
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    color: red;
+}
+
+
+     
+
+

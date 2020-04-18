@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>HTML Task 3</title>
+</head>
+<body>
+    
+    
+    <main id= container>
+    <!--Pages navigation-->
+       <div class="nav_bar">
+        <img class= nav_bar_item id="logo" src="https://res.cloudinary.com/daj93crqo/image/upload/v1587204200/FluxCode_logo_h8pvn1.jpg" alt= "Logo">
+        <p>
+            <input class= nav_bar_item type="search" value="Search">
+            <button type= "submit">Search</button>
+        </p>
+        <p>
+            <a class= nav_bar_item href="#">Contact Me</a>
+        </p>
+        <h4><a href="#">Timeline</a></h4>
+        
+        <img class="rounded_circle" src="https://res.cloudinary.com/daj93crqo/image/upload/v1587204156/Profile_wykinr.jpg" alt= "Author image">
+    
+    </div> 
+    <hr>
+    <!--Flext container-->
+         <div class="flex-container">
+        
+        <div>  
+        <img class= "dp" src="https://res.cloudinary.com/daj93crqo/image/upload/v1587204156/Profile_wykinr.jpg" alt= "Author image">
+        <p id= "work"> 
+        <hr> 
+        <em><h5 id="ul">Work</h5></em>
+        <ul>
+            <li>Startng - 2019</li>
+            <li>HNGi6 - 2019</li>
+            <li>Startng - Present</li>
+        </ul>
+        <em><h5 id= "ol">Contributed Projects<h5></em>
+        <ol>
+        <li>Mini Class room (Web App)</li>
+        <li>Kids Story (Web App)</li>
+        </ol>
+    </p>
+    </div>
+    <!--Prifile summary-->
+    <div>
+        <div id= "name">
+        <em><h2>Clement Nduonyi</h2></em>
+        <em><h5 id="location">Location: Uyo, Aks.</h5></em> 
+        </div>
+        <div id="links">
+        <em><h4 id= "meet"><a href="#">Summary</a></h4></em>
+        </div>
+    <em><strong><p id= "suma">
+        A web developer, specializes in front end development.<br/>
+        Experienced with all stages of the development life cycle<br/>
+        for web projects. Good knowledge of a number of programming<br/>
+        languages including HTML5, CSS, JavaScript and Python. I design<br/>
+        with Corel draw, and Figma (Graphics and UI/UX design).<br/> 
+        Surfing internet, coding, solving puzzles and swimming are my <br/>
+        hobbies. I'm interested in TECH and solving problem.<br/>
+    </em></strong></p>
+    
+    <p id= "contact"> 
+    <hr>
+    <!--Contact-->
+    <em><h5>Contact Information</h5></em>
+    </p>
+
+    <pre id= "add">
+Phone:          +234 803 2812 443
+            
+Address:        12 Gabriel Udoaka Str. 
+                Shelter Afrique Estate.
+
+Home Town:      Uyo
+           
+E-mail:         cndigitech@gmail.com
+
+</pre>
+<hr>
+<!--Basic Information-->
+    <em><h5>Bio - data</h5></em>
+
+<pre id= "bio">
+State Of origin:        Akwa Ibom
+
+DOB:                    April 22nd
+
+Occupation:             Web Developer
+
+Slack ID:               UV4U08JH4
+</pre>
+</p>     
+</div> 
+<div>
+
+</main>
+   <!--contact form-->
+    <em><h3>To see me? Fill this form.</h3></em>
+    <form class="contact_form" action="process.php" method="post" >
+        <div class="field">
+        <p>
+            <label for= full_name>Full Name</label><br/>
+            <input type="text" id= "field_element"  name="full_name" placeholder="Eneter Full name" required/>
+        </p>
+        <p>
+            <label for= e_mail>E-mail</label><br/>
+            <input type="text" id= "field_element" name="e_mail" placeholder="Eneter Valid e-mail" required/>
+        </p>
+        <p>
+            <label for="mobile_phone">Phone</label><br/>
+            <input type="digit" id= "field_element" name="mobile_phone" placeholder="Enter valid phone Number" required/>
+        </p>
+        </div>
+        <!-- gender selection-->
+        <div id= "gnder">
+        <p>
+
+            <label for= "gender">Male</label>
+            <input type="radio" name="sex"/>
+            <label for="gender">Female</label>
+            <input type="radio" name="sex"/>
+        </p>
+
+       <!--textarea, checkbox and submit button-->
+        </div>
+        <div class= "items">
+         <p>
+            <em><label for="text_area">How may I help you?</label></em><br/>
+            <textarea type="text" id= "text-a" placeholder="Type in your message" required></textarea>
+        </p>
+         <div id= "chkbox">
+            <em><input type="checkbox" name="T&C" required> By checking this box, you agree to our <a href="#">T&C.</a></em>
+        </div>
+        <p>
+        <button type="submit" id="bttn">Send</button>
+        </p>
+        </div>
+    </form>
+    
+</body>
+</html>
