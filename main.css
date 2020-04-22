@@ -7,7 +7,7 @@ body{
     background-color: rgb(41, 131, 233);
     margin-top: 3em;
     margin-bottom: 3em;
-    max-width: 100%
+    /*max-width: 100%*/
 
 }
 
@@ -60,8 +60,7 @@ main{
     margin: auto;
     border: none;
     border-radius: 0px 30px 0px 30px;
-    box-shadow: 1px 1px 1px 1px;
-    @media all and screen (min-width: = 560px){
+    /*@media all and screen (min-width: = 560px){*/
     
 }
 }
@@ -102,14 +101,14 @@ main{
 /*}*/
 }
 
-#ul{
+/*#ul{
     padding-bottom: 0.2em;
     color: red;
 }
 
 #ol{
-    padding-top: 2em;
-}
+    padding-top: em;
+}*/
 
 li{
     font-family: monospace;
@@ -173,7 +172,7 @@ h5{
     margin: auto;
     margin-top: 1em;
     border-radius: 20px 20px 20px 0px;
-    @media all and screen (min-width: = 560px){
+   /* @media all and screen (min-width: = 560px){*/
 }
 }
 
@@ -233,7 +232,7 @@ border: none;
 }
 
 #chkbox{
-    padding-top: 1em;
+    padding-top: 0.5em;
     padding-bottom: 0.5em;
     color: red;
 }
