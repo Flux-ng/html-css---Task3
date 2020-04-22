@@ -47,7 +47,10 @@ a{
     border-radius: 50%;
     margin-left: 1.5em;
 }
-
+.controls{
+    display: flex;
+    justify-content: space-around;
+}
 /* Main container frame*/
 main{
     background-color: white;
@@ -142,26 +145,6 @@ font-size: 1rem;
  @media all and screen (min-width: = 560px){
     
 }
-}
-/*Contact & Bio - Data goes here*/
-#contact{
-    /*padding-top: 1.5em;*/
-    width: 50%;
-    height: 50%
-    @media all and screen (min-width: = 560px){
-}
-}
-#add{
-    padding-top: 1em;
-    padding-bottom: 2em;
-    width: 50%;
-    height: 50%;
-}
-
-#bio{
-    /*padding-top: 1em;*/
-    width: 50%
-    height: 50%
 }
 
 
