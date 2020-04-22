@@ -3,7 +3,7 @@
     margin: 0px;*/
 }
 body{
-    background: 0vmax;
+    /*background: 0vmax;*/
     background-color: rgb(41, 131, 233);
     margin-top: 3em;
     margin-bottom: 3em;
@@ -11,16 +11,15 @@ body{
 
 }
 
-@media all and screen (min-width: = 560px)
+@media all and screen (min-width: = 560px){
+    
+}
 
 img{
     max-width: 100%;
     height: auto;
 }
 
-#container{
-    padding-top: 1.5em;
-}
 
 /* Pages Navigation bar */
 .nav_bar{
@@ -53,6 +52,7 @@ main{
     background-color: white;
     height: 655px;
     width: 100%;
+    padding-top: 1.5em;
     margin: auto;
     border: none;
     border-radius: 0px 30px 0px 30px;
