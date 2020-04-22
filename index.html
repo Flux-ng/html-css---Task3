@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="main.css">
-    <title>HTML Task 3 - Personal profile page</title>
+    <title>HTML Task 3</title>
 </head>
 <body>
     
     
-<main>
+    <main id= container>
     <!--Pages navigation-->
        <div class="nav_bar">
         <img class= nav_bar_item id="logo" src="https://res.cloudinary.com/daj93crqo/image/upload/v1587204200/FluxCode_logo_h8pvn1.jpg" alt= "Logo">
@@ -24,55 +24,83 @@
         
         <img class="rounded_circle" src="https://res.cloudinary.com/daj93crqo/image/upload/v1587204156/Profile_wykinr.jpg" alt= "Author image">
     
-    </div>
+    </div> 
     <hr>
-    <div class="controls">
-        <p>Mobile: +234 803 281 2443</p> 
-        <p>Slack Id: UV4U08JH4</p>
-        <p>E-mail: cndigitech@gmail.com</p>
-       
-    </div>
     <!--Flext container-->
          <div class="flex-container">
-             <div class="flex_left">
-                 <img class= "dp" src="https://res.cloudinary.com/daj93crqo/image/upload/v1587204156/Profile_wykinr.jpg" alt= "Author image">
-                 <p id= "work"> 
-                 <em><h5 id="ul">Work</h5></em>
-                 <ul>
-                     <li>Startng - 2019</li>
-                     <li>HNGi6 - 2019</li>
-                     <li>Startng - Present</li>
-                 </ul>
-                 <em><h5 id= "ol">Contributed Projects</h5></em>
-                 <ol>
-                     <li>Mini Class room (Web App)</li>
-                     <li>Kids Story (Web App)</li>
-                 </ol>
-             </div>
-             <!--Prifile summary-->
-             <div class="flex_right">
-                 <div id= "name">
-                     <em><h2>Clement Nduonyi</h2></em>
-                     <em><h5 id="location">Location: Uyo, Aks.</h5></em>
-                 </div>
-                 <div id="links">
-                     <em><h4 id= "meet"><a href="#">Summary</a></h4></em>
-                 </div>
-                 <em><strong><p id= "suma">
-                     A web developer, specializes in front end development.<br/>
-                     Experienced with all stages of the development life cycle<br/>
-                     for web projects. Good knowledge of a number of programming<br/>
-                     languages including HTML5, CSS, JavaScript and Python. I design<br/>
-                     with Corel draw, and Figma (Graphics and UI/UX design).<br/> 
-                     Surfing internet, coding, solving puzzles and swimming are my <br/>
-                     hobbies. I'm interested in TECH and solving problem.<br/>
-                     </p></strong></em>
-                 
-             </div>          
+        
+        <div>  
+        <img class= "dp" src="https://res.cloudinary.com/daj93crqo/image/upload/v1587204156/Profile_wykinr.jpg" alt= "Author image">
+        <p id= "work"> 
+        <hr> 
+        <em><h5 id="ul">Work</h5></em>
+        <ul>
+            <li>Startng - 2019</li>
+            <li>HNGi6 - 2019</li>
+            <li>Startng - Present</li>
+        </ul>
+        <em><h5 id= "ol">Contributed Projects<h5></em>
+        <ol>
+        <li>Mini Class room (Web App)</li>
+        <li>Kids Story (Web App)</li>
+        </ol>
+    </p>
     </div>
+    <!--Prifile summary-->
+    <div>
+        <div id= "name">
+        <em><h2>Clement Nduonyi</h2></em>
+        <em><h5 id="location">Location: Uyo, Aks.</h5></em> 
+        </div>
+        <div id="links">
+        <em><h4 id= "meet"><a href="#">Summary</a></h4></em>
+        </div>
+    <em><strong><p id= "suma">
+        A web developer, specializes in front end development.<br/>
+        Experienced with all stages of the development life cycle<br/>
+        for web projects. Good knowledge of a number of programming<br/>
+        languages including HTML5, CSS, JavaScript and Python. I design<br/>
+        with Corel draw, and Figma (Graphics and UI/UX design).<br/> 
+        Surfing internet, coding, solving puzzles and swimming are my <br/>
+        hobbies. I'm interested in TECH and solving problem.<br/>
+    </em></strong></p>
+    
+    <p id= "contact"> 
+    <hr>
+    <!--Contact-->
+    <em><h5>Contact Information</h5></em>
+    </p>
+
+    <pre id= "add">
+Phone:          +234 803 2812 443
+            
+Address:        12 Gabriel Udoaka Str. 
+                Shelter Afrique Estate.
+
+Home Town:      Uyo
+           
+E-mail:         cndigitech@gmail.com
+
+</pre>
+<hr>
+<!--Basic Information-->
+    <em><h5>Bio - data</h5></em>
+
+<pre id= "bio">
+State Of origin:        Akwa Ibom
+
+DOB:                    April 22nd
+
+Occupation:             Web Developer
+
+Slack ID:               UV4U08JH4
+</pre>
+</p>     
+</div> 
+<div>
+
 </main>
-   
-<!--contact form-->
+   <!--contact form-->
     <em><h3>To see me? Fill this form.</h3></em>
     <form class="contact_form" action="process.php" method="post" >
         <div class="field">
@@ -99,8 +127,8 @@
             <input type="radio" name="sex"/>
         </p>
 
+       <!--textarea, checkbox and submit button-->
         </div>
-         <!--textarea, checkbox and submit button-->
         <div class= "items">
          <p>
             <em><label for="text_area">How may I help you?</label></em><br/>
@@ -113,7 +141,6 @@
         <button type="submit" id="bttn">Send</button>
         </p>
         </div>
-        
     </form>
     
 </body>
