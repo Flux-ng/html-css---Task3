@@ -1,14 +1,18 @@
-*{
+//*{
     padding: 0px;
-    margin: 0px;
+    margin: 0px;*/
 }
 body{
     background: 0vmax;
     background-color: rgb(41, 131, 233);
     margin-top: 3em;
     margin-bottom: 3em;
+    max-width: 100%
 
 }
+
+@media all and screen (min-width: = 560px)
+
 img{
     max-width: 100%;
     height: auto;
@@ -48,7 +52,7 @@ a{
 main{
     background-color: white;
     height: 655px;
-    width: 60%;
+    width: 100%;
     margin: auto;
     border: none;
     border-radius: 0px 30px 0px 30px;
@@ -153,7 +157,7 @@ h5{
     display: flex;
     flex-direction: column;
     height: 300px;
-    width: 28em;
+    width: 50%;
     margin: auto;
     margin-top: 1em;
     border-radius: 20px 20px 20px 0px;
