@@ -52,7 +52,7 @@ a{
 main{
     background-color: white;
     height: 655px;
-    max-width: 100%;
+    width: 70%;
     padding-top: 1.5em;
     margin: auto;
     border: none;
@@ -65,9 +65,19 @@ main{
 
 .flex-container{
     display: flex;
-    justify-content: space-between;
-    padding-left: 8%;
+    justify-content: space-around;
+    padding-left: 5%;
     margin-top: 3%;
+}
+.flex_left{
+    width: 50%;
+    height: 90%;
+    
+}
+
+.flex_right{
+    width: 50%;
+    height: 90%;
 }
 
 /* Display picture frame*/
@@ -82,9 +92,9 @@ main{
 #work{
     padding-bottom: 1em;
     padding-top: 0em;
-    @media all and screen (min-width: = 560px){
+    /*@media all and screen (min-width: = 560px){*/
     
-}
+/*}*/
 }
 
 #ul{
