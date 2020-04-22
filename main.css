@@ -53,6 +53,8 @@ a{
 }
 /* Main container frame*/
 main{
+    display: flex;
+    flex-direction: row;
     background-color: white;
     height: 655px;
     width: 70%;
