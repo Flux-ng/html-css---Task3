@@ -31,7 +31,11 @@
         
         <div>  
         <img class= "dp" src="https://res.cloudinary.com/daj93crqo/image/upload/v1587204156/Profile_wykinr.jpg" alt= "Author image">
-        <p id= "work"> 
+        <div id= "name">
+        <em><h5>Clement Nduonyi</h5></em>
+        <em><h5 id="location">Location: Uyo, Aks.</h5></em> 
+        </div>
+        <p id= "work">
         <hr> 
         <em><h5 id="ul">Work</h5></em>
         <ul>
@@ -48,10 +52,6 @@
     </div>
     <!--Prifile summary-->
     <div>
-        <div id= "name">
-        <em><h2>Clement Nduonyi</h2></em>
-        <em><h5 id="location">Location: Uyo, Aks.</h5></em> 
-        </div>
         <div id="links">
         <em><h4 id= "meet"><a href="#">Summary</a></h4></em>
         </div>
@@ -116,16 +116,13 @@ Slack ID:               UV4U08JH4
             <label for="mobile_phone">Phone</label><br/>
             <input type="digit" id= "field_element" name="mobile_phone" placeholder="Enter valid phone Number" required/>
         </p>
-        </div>
-        <!-- gender selection-->
         <div id= "gnder">
-        <p>
+        
 
             <label for= "gender">Male</label>
             <input type="radio" name="sex"/>
             <label for="gender">Female</label>
             <input type="radio" name="sex"/>
-        </p>
 
        <!--textarea, checkbox and submit button-->
         </div>
@@ -136,12 +133,18 @@ Slack ID:               UV4U08JH4
         </p>
          <div id= "chkbox">
             <em><input type="checkbox" name="T&C" required> By checking this box, you agree to our <a href="#">T&C.</a></em>
+            <p>
+            <button type="submit" id="bttn">Send</button>
+            </p>
         </div>
-        <p>
-        <button type="submit" id="bttn">Send</button>
-        </p>
+        </div>
+        <!-- gender selection-->
+        
+        
+        
         </div>
     </form>
     
 </body>
+<!--footer>Startng 2020</footer-->
 </html>
