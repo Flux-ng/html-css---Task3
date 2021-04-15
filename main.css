@@ -1,16 +1,31 @@
   
-}
-body{
+
+*{
     padding: 0px;
     margin: 0px;
-    background-color: rgb(41, 131, 233);
-    margin-top: 3em;
-    margin-bottom: 3em;
+    box-sizing: border-box;
 
 }
+
+.side-menu{
+    background-color: darkblue;
+    width: 25%;
+    height: 100vh;
+}
+
+.training{
+  padding-top: 15rem ;
+}
+
+.contact{
+    display: flex;
+    position: absolute;
+    margin-top: 5rem;
+    margin-top: -400px;
+}
 img{
-    max-width: 100%;
-    height: auto;
+    width: 5%;
+    height: 20%;
 }
 
 #container{
