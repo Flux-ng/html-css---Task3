@@ -33,6 +33,11 @@
     line-height: 30px;
 }
 
+.edu h2{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
 .edu{
     line-height: 40px;
     font-size: 0.8rem;
@@ -113,19 +118,19 @@ img{
 .p-training{
     position: absolute;
     width: 30%;
-    margin: 25% 40%;
+    margin: 25% 28%;
   
     
 }
 
-.p-training h3{
+/*.p-training h3{
     margin: 3rem 0 0 0;
-}
+}*/
 
 .courses{
    display: flex;
    flex-direction: column;
-  align-items: center;
+  /*align-items: center;*/
 }
 
 
