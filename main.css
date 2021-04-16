@@ -9,26 +9,128 @@
 
 .side-menu{
     background-color: darkblue;
-    width: 25%;
-    height: 100vh;
+    width: 20%;
+    height: 100%;
+    padding: 0 0.5rem 2rem 0.5rem;
+    text-align: left;
 }
 
 .training{
-  padding-top: 15rem ;
+    display: flex;
+    flex-flow: wrap;
+    padding-top: 25rem ;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.career h2{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.career{
+    margin-bottom: 3rem;
+    line-height: 30px;
+}
+
+.edu{
+    line-height: 40px;
+    font-size: 0.8rem;
+}
+
+.white-dot{
+    color: white;
+    font-size: 5rem;
+}
+
+.red-dot{
+    color: red;
+    font-size: 5rem;
+}
+
+.green-dot{
+    color: green;
+    font-size: 5rem;
+}
+
+.yello-dot{
+    color: yellow;
+    font-size: 5rem;
+}
+
+.edu h2{
+    line-height: 1px;
+}
+header{
+    position: absolute;
+    width: 100%;
+    margin-top: 5rem;
+    background-color: azure;
+    height: 205px;
+    /*margin-top: -400px;*/
 }
 
 .contact{
     display: flex;
-    position: absolute;
-    margin-top: 5rem;
-    margin-top: -400px;
+    border: none;
+}
+
+.dp{
+    width: 38%;
+    border-radius: 50%;
+    height: 38%;
+    /*text-align: center;*/
+    margin: 0.15rem 1.5rem;
+
+}
+
+.dp-text{
+    line-height: 30px;
+    height: 2px;
+    text-align: center;
+}
+
+.dp-text h1{
+    text-align: center;
+    color: tomato;
+}
+
+.dp-text span{
+    font-size: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: tomato
 }
 img{
     width: 5%;
     height: 20%;
+    
 }
 
-#container{
+.p-training{
+    position: absolute;
+    width: 30%;
+    margin: 25% 40%;
+  
+    
+}
+
+.p-training h3{
+    margin: 3rem 0 0 0;
+}
+
+.courses{
+   display: flex;
+   flex-direction: column;
+  align-items: center;
+}
+
+
+
+/*#container{
     background-color: lightgray;
     min-width: 500px;
     height: 1000px;
@@ -50,7 +152,7 @@ img{
     margin-right: 0.8em;
 }
 
-a{
+/*a{
     text-decoration: none;
 }
 
@@ -191,7 +293,7 @@ border: none;
 
 #chkbox{
     color: red;
-}
+}*/
 
 
      
