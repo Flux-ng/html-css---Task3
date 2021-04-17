@@ -1,0 +1,312 @@
+  
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.mobile{
+    display: none;
+}
+
+.side-menu{
+    background-color: gray;
+    width: 20%;
+    height: 100%;
+    padding: 0 0.5rem 2rem 0.5rem;
+    text-align: left;
+}
+
+.training{
+    display: flex;
+    flex-flow: wrap;
+    padding-top: 25rem ;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.career h2{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.career{
+    margin-bottom: 3rem;
+    line-height: 30px;
+}
+
+.edu h2{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.edu{
+    line-height: 40px;
+    font-size: 0.8rem;
+}
+
+.white-dot{
+    color: white;
+    font-size: 5rem;
+}
+
+.red-dot{
+    color: red;
+    font-size: 5rem;
+}
+
+.green-dot{
+    color: green;
+    font-size: 5rem;
+}
+
+.yello-dot{
+    color: yellow;
+    font-size: 5rem;
+}
+
+.edu h2{
+    line-height: 1px;
+}
+header{
+    position: absolute;
+    width: 100%;
+    margin-top: 5rem;
+    background-color: azure;
+    height: 205px;
+}
+
+.flex{
+    width: 70%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.details{
+    margin-right: 1rem;
+   
+}
+
+
+
+.contact{
+    display: flex;
+    border: none;
+    
+}
+
+.dp{
+    position: relative;
+    width: 38%;
+    border-radius: 50%;
+    height: 38%;
+    margin: 0.15rem 0 1.5rem 1.5rem;
+
+}
+
+.dp-text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 25rem;
+}
+
+.dp-text h1{
+    margin-top: 2rem;
+    color: tomato;
+}
+
+
+a{
+    text-decoration: none;
+    color:#BADA55;
+}
+img{
+    width: 5%;
+    height: 20%;
+    
+}
+
+.p-training{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 50%;
+    margin: 23% 0 25% 28%;
+  
+    
+}
+
+h2, h3{
+   text-align: center;
+}
+
+ul li{
+    text-align: center;
+    list-style: none;
+}
+
+.courses , .project{
+  line-height: 2rem;
+}
+
+.project h2{
+    text-align: justify;
+}
+
+.stack{
+    line-height: 1rem;
+    padding-top: 2rem;
+   
+}
+
+.white-dot{
+    color: white;
+    font-size: 5rem;
+}
+
+.red{
+    color: red;
+    font-size: 5rem;
+}
+
+.green{
+    color: green;
+    font-size: 5rem;
+}
+
+.yello{
+    color: yellow;
+    font-size: 5rem;
+}
+
+.black{
+    color: black;
+    font-size: 5rem;
+}
+
+@media(max-width: 719px){
+    header{
+      margin-top: 2rem;
+      position: relative;
+    }
+
+    .side-menu{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+        background-color: gray;
+        margin-top: 10rem;
+    }
+
+    .training{
+        display: flex;
+        flex-flow: wrap;
+        padding: 3rem 1rem 0 1rem;
+    }
+    
+
+    .contact{
+        display: flex;
+       flex-direction: column;
+      
+    }
+
+    .dp{
+        position: relative;
+        width: 38%;
+        border-radius: 50%;
+        height: 38%;
+       text-align: center;
+        margin:0 2rem 0 0;
+    
+    }
+    
+    .dp-text{
+        text-align: right;
+        margin-left: 10px;
+    }
+    
+    .dp-text h1{
+        margin-top: 0;
+        font-size: 1rem;
+    }
+    
+   small{
+       font-size: 9px;
+       
+   }
+    a{
+        text-decoration: none;
+        color:#BADA55;
+    }
+    img{
+        width: 5%;
+        height: 20%;
+        
+    }
+
+    .flex{
+        font-size: 12px;
+        /*width: 70%;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;*/
+    }
+    
+
+    .p-training{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        margin: 5rem 0 0 0;
+        /*padding-left: 1rem;*/
+      
+    } 
+    
+    ul li{
+        text-align: left;
+        list-style: none;
+    }
+
+    ul li{
+        text-align: left;
+    }
+
+    .courses , .project{
+        line-height: 2rem;
+    }
+
+    h2, h3{
+        text-align: left;
+        margin-top: 2rem;
+     }
+
+     .project h2{
+        text-align: left;
+    }
+
+    .project{
+      text-align: justify;
+    }
+    
+    .stack{
+        line-height: 1rem;
+        padding-top: 2rem;
+       
+    }
+
+}
